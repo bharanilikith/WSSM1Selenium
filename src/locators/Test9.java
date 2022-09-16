@@ -1,5 +1,7 @@
 package locators;
 
+import java.util.Set;
+
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -12,8 +14,18 @@ public class Test9 {
 		WebDriver driver=new FirefoxDriver();
 		driver.manage().window().maximize();
 		driver.get("https://www.amazon.com/");
-driver.findElement(By.linkText("Customer Service")).click();
-driver.findElement(By.linkText("Home")).sendKeys(args)
+		
+		
+		String parent = driver.getWindowHandle();
+		Set<String> child = driver.getWindowHandles();
+		
+		for(String b:child) {
+			driver.switchTo().window(b);
+			driver.close();
+		}
+		
+//driver.findElement(By.linkText("Customer Service")).click();
+//driver.finwidElement(By.linkText("Home")).sendKeys(args)
 	}
 
 }

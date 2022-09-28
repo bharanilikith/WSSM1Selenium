@@ -22,6 +22,7 @@ Actions a=new Actions(driver);
 a.moveToElement(ele).perform();
 
 
+
 driver.findElement(By.xpath("//a[text()='Apple']")).click();
 
 

@@ -27,5 +27,6 @@
 	<classpathentry kind="lib" path="poi/slf4j-api-1.7.36.jar"/>
 	<classpathentry kind="lib" path="poi/SparseBitSet-1.2.jar"/>
 	<classpathentry kind="lib" path="poi/xmlbeans-5.0.3.jar"/>
+	<classpathentry kind="con" path="org.testng.TESTNG_CONTAINER"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="1" total="6" passed="5" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[calls]]>
+    </line>
+    <line>
+      <![CDATA[calls]]>
+    </line>
+    <line>
+      <![CDATA[calls]]>
+    </line>
+    <line>
+      <![CDATA[calls]]>
+    </line>
+    <line>
+      <![CDATA[chats]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2022-10-08T09:06:21 IST" name="Default suite" finished-at="2022-10-08T09:06:21 IST" duration-ms="56">
+    <groups>
+    </groups>
+    <test started-at="2022-10-08T09:06:21 IST" name="Default test" finished-at="2022-10-08T09:06:21 IST" duration-ms="56">
+      <class name="testng.Test1">
+        <test-method signature="calls()[pri:0, instance:testng.Test1@61386958]" started-at="2022-10-08T09:06:21 IST" name="calls" finished-at="2022-10-08T09:06:21 IST" duration-ms="9" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[calls]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- calls -->
+        <test-method signature="calls()[pri:0, instance:testng.Test1@61386958]" started-at="2022-10-08T09:06:21 IST" name="calls" finished-at="2022-10-08T09:06:21 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[calls]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- calls -->
+        <test-method signature="calls()[pri:0, instance:testng.Test1@61386958]" started-at="2022-10-08T09:06:21 IST" name="calls" finished-at="2022-10-08T09:06:21 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[calls]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- calls -->
+        <test-method signature="calls()[pri:0, instance:testng.Test1@61386958]" started-at="2022-10-08T09:06:21 IST" name="calls" finished-at="2022-10-08T09:06:21 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[calls]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- calls -->
+        <test-method signature="chats()[pri:1, instance:testng.Test1@61386958]" started-at="2022-10-08T09:06:21 IST" name="chats" finished-at="2022-10-08T09:06:21 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[chats]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- chats -->
+      </class> <!-- testng.Test1 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

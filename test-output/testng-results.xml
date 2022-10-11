@@ -1,90 +1,61 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
-    <line>
-      <![CDATA[actiTIME - Login]]>
-    </line>
-    <line>
-      <![CDATA[https://demo.actitime.com/login.do]]>
-    </line>
-    <line>
-      <![CDATA[actiTIME - Login]]>
-    </line>
-    <line>
-      <![CDATA[https://demo.actitime.com/login.do]]>
-    </line>
-    <line>
-      <![CDATA[actiTIME - Login]]>
-    </line>
-    <line>
-      <![CDATA[https://demo.actitime.com/login.do]]>
-    </line>
   </reporter-output>
-  <suite started-at="2022-10-10T08:53:53 IST" name="Suite" finished-at="2022-10-10T08:54:05 IST" duration-ms="11878">
+  <suite started-at="2022-10-11T09:18:23 IST" name="Default suite" finished-at="2022-10-11T09:19:55 IST" duration-ms="91949">
     <groups>
     </groups>
-    <test started-at="2022-10-10T08:53:53 IST" name="Test3" finished-at="2022-10-10T08:54:01 IST" duration-ms="7817">
-      <class name="testng.Parallel">
-        <test-method signature="demo(java.lang.String)[pri:0, instance:testng.Parallel@67c33749]" started-at="2022-10-10T08:53:53 IST" name="demo" finished-at="2022-10-10T08:54:01 IST" duration-ms="7778" status="PASS">
+    <test started-at="2022-10-11T09:18:23 IST" name="Default test" finished-at="2022-10-11T09:19:55 IST" duration-ms="91949">
+      <class name="testng.Demo">
+        <test-method signature="tc1(java.lang.String,java.lang.String)[pri:0, instance:testng.Demo@c333c60]" started-at="2022-10-11T09:18:23 IST" name="tc1" data-provider="getData" finished-at="2022-10-11T09:18:55 IST" duration-ms="31340" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[chrome]]>
+                <![CDATA[1234777772]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1234566565]]>
               </value>
             </param>
           </params>
           <reporter-output>
-            <line>
-              <![CDATA[actiTIME - Login]]>
-            </line>
-            <line>
-              <![CDATA[https://demo.actitime.com/login.do]]>
-            </line>
           </reporter-output>
-        </test-method> <!-- demo -->
-      </class> <!-- testng.Parallel -->
-    </test> <!-- Test3 -->
-    <test started-at="2022-10-10T08:53:53 IST" name="Test1" finished-at="2022-10-10T08:54:01 IST" duration-ms="8517">
-      <class name="testng.Parallel">
-        <test-method signature="demo(java.lang.String)[pri:0, instance:testng.Parallel@65f095f8]" started-at="2022-10-10T08:53:53 IST" name="demo" finished-at="2022-10-10T08:54:01 IST" duration-ms="8487" status="PASS">
+        </test-method> <!-- tc1 -->
+        <test-method signature="tc1(java.lang.String,java.lang.String)[pri:0, instance:testng.Demo@c333c60]" started-at="2022-10-11T09:18:55 IST" name="tc1" data-provider="getData" finished-at="2022-10-11T09:19:25 IST" duration-ms="30288" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[chrome]]>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[manager]]>
               </value>
             </param>
           </params>
           <reporter-output>
-            <line>
-              <![CDATA[actiTIME - Login]]>
-            </line>
-            <line>
-              <![CDATA[https://demo.actitime.com/login.do]]>
-            </line>
           </reporter-output>
-        </test-method> <!-- demo -->
-      </class> <!-- testng.Parallel -->
-    </test> <!-- Test1 -->
-    <test started-at="2022-10-10T08:53:53 IST" name="Test2" finished-at="2022-10-10T08:54:05 IST" duration-ms="11878">
-      <class name="testng.Parallel">
-        <test-method signature="demo(java.lang.String)[pri:0, instance:testng.Parallel@581ac8a8]" started-at="2022-10-10T08:53:53 IST" name="demo" finished-at="2022-10-10T08:54:05 IST" duration-ms="11848" status="PASS">
+        </test-method> <!-- tc1 -->
+        <test-method signature="tc1(java.lang.String,java.lang.String)[pri:0, instance:testng.Demo@c333c60]" started-at="2022-10-11T09:19:25 IST" name="tc1" data-provider="getData" finished-at="2022-10-11T09:19:55 IST" duration-ms="30268" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[firefox]]>
+                <![CDATA[qaz123$%^^]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[2354FDF@#Z#$]]>
               </value>
             </param>
           </params>
           <reporter-output>
-            <line>
-              <![CDATA[actiTIME - Login]]>
-            </line>
-            <line>
-              <![CDATA[https://demo.actitime.com/login.do]]>
-            </line>
           </reporter-output>
-        </test-method> <!-- demo -->
-      </class> <!-- testng.Parallel -->
-    </test> <!-- Test2 -->
-  </suite> <!-- Suite -->
+        </test-method> <!-- tc1 -->
+      </class> <!-- testng.Demo -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

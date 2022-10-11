@@ -1,28 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite name="Suite" parallel="tests">
-  <test thread-count="5" name="Test1">
-  <parameter name="BrowserName" value="chrome"></parameter>
-  <classes>
-  <class name="testng.Parallel"></class>
-  </classes>
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="testng.Testcase1"/>
+      <class name="testng.Testcase2"/>
+      <class name="testng.Testcase3"/>
+    </classes>
   </test> <!-- Test -->
-  
-  
-  
-  <test thread-count="5" name="Test2">
-  <parameter name="BrowserName" value="firefox"></parameter>
-  <classes>
-  <class name="testng.Parallel"></class>
-  </classes>
-  </test> <!-- Test -->
-  
-  <test thread-count="5" name="Test3">
-  <parameter name="BrowserName" value="chrome"></parameter>
-  <classes>
-  <class name="testng.Parallel"></class>
-  </classes>
-  </test> <!-- Test -->
-  
-  
 </suite> <!-- Suite -->

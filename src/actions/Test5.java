@@ -32,6 +32,17 @@ a.dragAndDrop(block1, block4).perform();
 Thread.sleep(6000);
 a.dragAndDrop(block11, block3).perform();
 
+//delete
+driver.manage().deleteAllCookies();
+
+//particular
+driver.manage().deleteCookie("address");
+
+//get the cookies
+driver.manage().getCookies();
+
+//particular
+driver.manage().getCookieNamed("address");
 
 	}
 
